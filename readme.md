@@ -15,3 +15,15 @@
 1. 部署自己的`url.json`
 2. 把`eo.js`部署到EO, 修改json文件网址为自己的
 3. 运行即可, 然后自行绑定触发规则
+
+## 检查状态
+
+访问`/status`, 会获得如下响应: 
+```
+{
+  "service": "Redirect Service",
+  "status": "OK",
+  "redirectCount": 42,
+  "lastUpdated": "2023-06-25T12:34:56.789Z"
+}
+```
