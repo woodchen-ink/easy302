@@ -3,7 +3,7 @@ let redirects = {};
 
 // 从外部 URL 获取 JSON 文件的函数
 async function fetchRedirects() {
-  const url = 'https://example.com/redirects.json'; // 替换为您的 JSON 文件 URL
+  const url = 'https://git.czl.net/wood/easy302/raw/branch/main/url.json'; // 替换为您的 JSON 文件 URL
   try {
     const response = await fetch(url);
     if (!response.ok) {
